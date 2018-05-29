@@ -1,0 +1,62 @@
+
+
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.row{
+	margin-bottom:10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.btn{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	background-color: #531c77;
+	color: white;
+	padding: 5px;
+}
+
+.btn:hover{
+	color: #07ccef;
+}
+
+.btn:focus{
+	background-color: #16bc8a;
+	color: #9207ef;
+}
+
+.movie-button{
+	margin: 5px;
+}
+
+
+.gif-image{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.individual-gif-container{
+	float: left;
+	margin:10px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#submit{
+	margin-top: 10px;
+}
+
+#movies{
+	margin-top: 10px;
+	width: 100%;
+}
+
+#favorites{
+	margin-top: 20px;
+}

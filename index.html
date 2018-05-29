@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+	<body>
+         <!-- Movies will get dumped here -->
+		<div class = "row">
+			<h1>Movies</h1>
+			<div id = "button-container">
+			</div>
+		</div>
+		<div class = "row">
+			<div id = "gif-container" class = "col-xs-8">
+					<input type="checkbox" id="check_all_1" name="check_all_1" title="Select All" onclick="selectAll(document.wizard_form, this);">
+					<label for="check_all_1" onclick="toggleCheckbox('check_all_1'); return false;">Select All</label>
+			</div>
+			<div class = "col-xs-1">
+			</div>
+			<div class = "col-xs-3">
+				<form>
+					Add Movies<br>
+					<input type = "text" name = "movies" id = "movies">
+					<input type = "submit" value = "Submit" class = "btn" id = "submit">
+				</form>
+				<div id = "button-favorites">
+						<div class = "col-xs-3">
+						<input type = "submit" value = "Favorites" class = "btn" id = "favorites">
+						</div>
+				</div>
+			</div>
+        </div>
+        <script type="text/javascript" src="assets/javascript/javascript.js"></script>
+	
+	</body>
